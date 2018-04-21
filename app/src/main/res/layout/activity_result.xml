@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/dwd"
+
+        />
+
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <include layout="@layout/top_layout" />
+
+<ImageView
+    android:layout_width="200dp"
+    android:layout_height="260dp"
+    android:layout_marginTop="20dp"
+    android:src="@mipmap/ok"/>
+
+        <Button
+            android:id="@+id/btn_ok"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="@dimen/the_space"
+            android:layout_marginRight="@dimen/the_space"
+            android:background="@color/blue_bg"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:text="恭喜过关" />
+    </LinearLayout>
+</RelativeLayout>

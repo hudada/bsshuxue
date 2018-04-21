@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:gravity="center"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/blue_bg"/>
+<TextView
+    android:id="@+id/tv01"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:textStyle="bold"
+    android:textSize="20sp"
+    android:gravity="center"
+    android:layout_marginLeft="@dimen/the_space"
+    android:textColor="@color/blue_bg"
+    android:text="问题：999+555=?"/>
+    <TextView
+        android:id="@+id/tv02"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginRight="@dimen/the_space"
+        android:textColor="@color/blue_bg"
+        android:layout_alignParentRight="true"
+        android:text="答案：999"/>
+</RelativeLayout>
